@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'NunitoBold', sans-serif;
     color: white;
-    src: url(fonts/NunitoBold.ttf);
+    src: url(/loops/NunitoBold.ttf);
 }
 
 .color {
