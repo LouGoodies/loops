@@ -13,8 +13,6 @@
                 Foreach jest nieco inną pętlą od pozostałych. Służy do operacji na tablicach. Dokładniej mówiąc, możemy dzięki niej łatwo przeglądać kolejne elementy tablicy.<br>
                 Podstawowy zapis tej pętli wygląda następująco:<br>
             </h4>
-
-            <h4 class="color" style="font-size: 20px;">Przykład użycia pętli do ... while - po wykonaniu dostaniemy wynik "Mashala" 10 razy</h4>   
                      <div class="codebox" style="margin-left: 600px;">
                         <pre class="tlocodeboxpre">
                             &lt;?php
@@ -31,7 +29,7 @@
                     </h4>
             
 
-                    <h4 class="color" style="font-size: 20px;" >Przykład użycia pętli do ... while - po wykonaniu dostaniemy wynik "Mashala" 10 razy</h4>   
+                    <h4 class="color" style="font-size: 20px;" >Pierwszy przykład użycia pętli foreach - po wykonaniu dostaniemy wynik "Jan, Piotr, Adrian, Marek, Adam,"</h4>   
                     <div class="codebox" style="margin-left: 600px;">
                        <pre class="tlocodeboxpre">
                            &lt;?php
@@ -39,7 +37,6 @@
                            foreach ($people as $person) {
                                echo $person . ', ';
                            }
-                           // result: Jan, Piotr, Adrian, Marek, Adam,
                        </pre>
                     </div>
 
@@ -48,7 +45,7 @@
                         A gdyby zdarzyło się, że tablica nie ma dokładnie określonej liczby elementów, to już w ogóle byłby problem. <br>
                     </h4>
 
-                    <h4 class="color" style="font-size: 20px;">Przykład użycia pętli do ... while - po wykonaniu dostaniemy wynik "Mashala" 10 razy</h4>   
+                    <h4 class="color" style="font-size: 20px;">Drugi przykład użycia pętli foreach - po wykonaniu dostaniemy wynik "JanPiotrAdrianMarekAdam"</h4>   
                     <div class="codebox" style="margin-left: 600px;">
                        <pre class="tlocodeboxpre">
                            &lt;?php
@@ -64,7 +61,7 @@
                         Istnieje także możliwość odczytania indeksu/klucza dla każdego elementu poprzez dodanie =>.<br>
                     </h4>
 
-                    <h4 class="color" style="font-size: 20px;">Przykład użycia pętli do ... while - po wykonaniu dostaniemy wynik "Mashala" 10 razy</h4>   
+                    <h4 class="color" style="font-size: 20px;">Trzeci przykład użycia pętli foreach - po wykonaniu dostaniemy wynik "Mname: Jan, age: 26, address: Kwiatowa 1, email: jan@example.com,"</h4>   
                     <div class="codebox" style="margin-left: 600px;">
                        <pre class="tlocodeboxpre">
                            &lt;?php
@@ -77,7 +74,6 @@
                            foreach ($person as $data => $value) {
                                echo $data . ': ' . $value . ', ';
                            }
-                           // result: name: Jan, age: 26, address: Kwiatowa 1, email: jan@example.com,
                        </pre>
                     </div>
 
